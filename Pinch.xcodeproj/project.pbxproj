@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		336B4E7E2A62353500884AF6 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B4E7D2A62353500884AF6 /* PageModel.swift */; };
+		336B4E802A62359000884AF6 /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B4E7F2A62359000884AF6 /* PageData.swift */; };
 		338186F72A5F91BE000EA740 /* PinchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338186F62A5F91BE000EA740 /* PinchApp.swift */; };
 		338186F92A5F91BE000EA740 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338186F82A5F91BE000EA740 /* ContentView.swift */; };
 		338186FB2A5F91BF000EA740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338186FA2A5F91BF000EA740 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		336B4E7D2A62353500884AF6 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		336B4E7F2A62359000884AF6 /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
 		338186F32A5F91BE000EA740 /* Pinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338186F62A5F91BE000EA740 /* PinchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchApp.swift; sourceTree = "<group>"; };
 		338186F82A5F91BE000EA740 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -154,6 +158,7 @@
 		338187232A5F933E000EA740 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				336B4E7D2A62353500884AF6 /* PageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 		338187242A5F9348000EA740 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				336B4E7F2A62359000884AF6 /* PageData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -296,8 +302,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				338187292A5FA0A0000EA740 /* ControlImageView.swift in Sources */,
+				336B4E7E2A62353500884AF6 /* PageModel.swift in Sources */,
 				338186F92A5F91BE000EA740 /* ContentView.swift in Sources */,
 				338186F72A5F91BE000EA740 /* PinchApp.swift in Sources */,
+				336B4E802A62359000884AF6 /* PageData.swift in Sources */,
 				338187272A5F9AC3000EA740 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
